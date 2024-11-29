@@ -1,0 +1,29 @@
+{
+  "name": "wb/admin-order-grid",
+  "description": "A Magento 2 module to enhance the admin order creation product grid with stock and pre-order status.",
+  "require": {
+    "php": "^7.3 || ^7.4 || ^8.1",
+    "magento/framework": "^103.0",
+    "magento/module-sales": "^103.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "authors": [
+    {
+      "name": "Wajahat Bashir",
+      "email": "wajahat.bashir786@gmail.com",
+      "role": "Magento Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "WB\\AdminOrderGrid\\": ""
+    }
+  }
+}
